@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#545e60</color>
+    <color name="pane_bg">#2a3536</color>
+    <color name="mid">#162326</color>
+    <color name="fg">#ebe6ca</color>
+    <color name="lnclr">#cdccb2</color>
+    <color name="acc">#97b1aa</color>
+</resources>

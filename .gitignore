@@ -1,0 +1,42 @@
+# Documentation & AI Instructions
+*.md
+.cursorrules
+.windsurfrules
+.gemini/
+.claude/
+
+# Android & Gradle Build Artifacts
+.gradle/
+build/
+**/build/
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+output-metadata.json
+
+# IDE & Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Binaries, Keystores & Packages
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jks
+*.keystore
+
+# OS & Temporary Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.bak
+*.tmp
+*.log

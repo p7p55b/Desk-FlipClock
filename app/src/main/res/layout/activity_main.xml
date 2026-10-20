@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/clckvw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_clock_housing"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:alpha="0.7"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.06"
+            android:textAllCaps="true"
+            android:textColor="@color/fg"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <com.studiofoxxo.deskflipclock.ui.FlipPairView
+            android:id="@+id/tmflp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.08"
+            android:textAllCaps="true"
+            android:textColor="@color/acc"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/plsbtn"
+        android:layout_width="160dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_clock_housing"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="[ + ]"
+        android:textColor="@color/fg"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</FrameLayout>
