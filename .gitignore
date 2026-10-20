@@ -30,6 +30,7 @@ output-metadata.json
 *.class
 *.jks
 *.keystore
+keystore.properties
 
 # OS & Temporary Files
 .DS_Store
